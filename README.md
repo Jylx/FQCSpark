@@ -1,4 +1,17 @@
 # FQCSpark
+
+## install
+
+- install BSC，and configure environment variables
+- install JDK-1.8.0，Hadoop-3.1.3, and Spark-2.1.1
+
+## package
+
+```shell
+cd projectPath
+mvn assembly:assembly
+```
+
 ## compress
 ```shell
 bin/spark-submit \
