@@ -22,12 +22,12 @@ bin/spark-submit \
 --executor-memory yg \
 --executor-cores m \
 --num-executors n \
-FQCSparkJarName
-RefFileName
-targetDir
-hdfsDir
-localDir
--1 
+FQCSparkJarName \
+RefFileName \
+targetDir \
+hdfsDir \
+localDir \
+-1 \
 linespermap
 ```
 
